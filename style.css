@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+:root{
+    --primary : #1EC28B;
+    --primary-variation : #F6FEFB;
+    --secondary : #FF8345;
+    --black-800 : #0B0242;
+    --black-600 : #506975;
+    --black-400 : #C7CED1;
+    --white : #ffffff;
+    --surface : #F5F9F8;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+.nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.nav ul li{
+    list-style: none;
+    padding: 8px 24px;
+    margin: 0 16px;
+    border-radius: 6px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: var(--black-600);
+    font-weight: 600;
+    font-size: 16px;
+}
+.login-user{
+    display: flex;
+    flex-direction: row;
+}
+.login-user .login{
+    background-color: var(--primary);
+}
+.login-user .login a {
+    color: var(--white);
+}
+.login-user .register{
+    border: 2px solid var(--black-600);
+}
